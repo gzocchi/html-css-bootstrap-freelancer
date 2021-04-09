@@ -57,3 +57,14 @@ main h2 {
 }
 
 /* footer */
+footer {
+  text-align: center;
+}
+#info {
+  height: 120px;
+  background-color: #3a546d;
+}
+#copyright {
+  height: 40px;
+  background-color: #2c3e50;
+}
