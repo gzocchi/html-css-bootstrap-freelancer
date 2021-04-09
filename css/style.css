@@ -1,0 +1,33 @@
+/* debug */
+.debug .container-fluid {
+  background-color: blue;
+}
+.debug .container {
+  background-color: lightskyblue;
+}
+.debug [class*="col-"] {
+  min-height: 100px;
+  background-color: yellow;
+  border: 1px solid red;
+}
+.debug [class*="col-"] [class*="col-"] {
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* debug */
+
+body {
+  color: #ffffff;
+}
+
+/* header */
+.navbar_header {
+  height: 40px;
+  background-color: #2c3e50;
+}
+.jumbotron_header {
+  height: 400px;
+  background-color: #1abc9c;
+}
