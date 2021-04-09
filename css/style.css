@@ -21,6 +21,9 @@
 body {
   color: #ffffff;
 }
+h2 {
+  text-transform: uppercase;
+}
 
 /* header */
 .navbar_header {
@@ -31,3 +34,26 @@ body {
   height: 400px;
   background-color: #1abc9c;
 }
+
+/* main */
+main img {
+  width: 100%;
+  border-radius: 15px;
+}
+main h2 {
+  text-align: center;
+}
+#portfolio h2,
+#contact_me {
+  color: black;
+}
+
+#about {
+  background-color: #1abc9c;
+}
+
+#contact_me {
+  height: 400px;
+}
+
+/* footer */
