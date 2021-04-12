@@ -127,7 +127,8 @@ main > section {
   /* border-width: 0; */
   border-radius: 0;
 }
-#contact_me input::placeholder {
+#contact_me input::placeholder,
+#contact_me textarea::placeholder {
   color: #000000;
 }
 
