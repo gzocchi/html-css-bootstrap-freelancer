@@ -8,7 +8,7 @@ body {
 h1,
 h2,
 h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* decoration */
@@ -92,11 +92,26 @@ main > section {
 
 #portfolio,
 #contact_me {
-color: black;
+  color: black;
 }
 
 #about {
   background-color: #1abc9c;
+}
+#about p {
+  margin: 15px 0;
+}
+
+.btn_green {
+  color: #ffff;
+  background-color: #1abc9c;
+  border-color: #ffff;
+  transition: background-color 0.4s;
+}
+#about .btn_green:hover {
+  color: #000000;
+  background-color: #ffff;
+  border-color: #ffff;
 }
 
 #contact_me {
