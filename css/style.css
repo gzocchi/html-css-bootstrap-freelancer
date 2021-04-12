@@ -1,48 +1,83 @@
-/* debug */
-.debug .container-fluid {
-  background-color: blue;
-}
-.debug .container {
-  background-color: lightskyblue;
-}
-.debug [class*="col-"] {
-  min-height: 100px;
-  background-color: yellow;
-  border: 1px solid red;
-}
-.debug [class*="col-"] [class*="col-"] {
-  height: 100px;
-  background-color: white;
-  border: 1px solid black;
-}
-
-/* debug */
-
+/* common */
 body {
+  padding-top: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   color: #ffffff;
 }
-/* h2 {
-  text-transform: uppercase;
+
+/* decoration */
+.section_decoration {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 10px 0;
+}
+.section_decoration > span {
+  vertical-align: middle;
+}
+.decoration_line {
+  display: inline-block;
+  height: 2px;
+  width: 10%;
+  min-width: 80px;
+  max-width: 120px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.dark_line {
+  background-color: #020202;
+}
+
+/* ----- header ----- */
+/* navbar */
+.navbar.ms_navbar {
+  background-color: #2c3e50;
+  font-weight: 700;
+}
+
+.ms_navbar .navbar-brand {
+  height: 60px;
+  line-height: 30px;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.ms_navbar .navbar-nav > li > a {
+  line-height: 30px;
+  color: #ffffff;
+}
+.ms_navbar .nav > li > a:focus,
+.ms_navbar .nav > li > a:hover {
+  background-color: transparent;
+  color: #1abc9c;
+}
+/* .ms_navbar .nav > li > a:active {
+  background-color: #1abc9c;
+  color: #ffffff;
 } */
 
-/* header */
-.navbar_header {
-  height: 40px;
-  background-color: #2c3e50;
+.ms_navbar .navbar-toggle {
+  margin-top: 13px;
+  border-color: #ffffff;
 }
-.jumbotron_header {
-  height: 400px;
+.ms_navbar .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/* jumbotron */
+#jumbotron {
+  padding: 60px 0;
   background-color: #1abc9c;
 }
+#jumbotron img {
+  height: 200px;
+}
+#jumbotron h1,
+#jumbotron p {
+  font-weight: 700;
+}
 
-/* main */
-/* main img {
-  width: 100%;
-  border-radius: 15px;
-} */
-/* main h2 {
-  text-align: center;
-} */
+/* ----- main ----- */
 #portfolio h2,
 #contact_me {
   color: black;
@@ -56,10 +91,7 @@ body {
   height: 400px;
 }
 
-/* footer */
-/* footer {
-  text-align: center;
-} */
+/* ----- footer ----- */
 #info {
   height: 120px;
   background-color: #3a546d;
